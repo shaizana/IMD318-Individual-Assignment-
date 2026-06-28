@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zana's 1st Websites</title>
+    <link rel="shortcut icon" type="jpg/gif" href="butterfly.gif">
+    <style> img:hover{transform: scale(1.03); transition: 0.3s;} @keyframes float {0% {transform: translateY(0);} 50% {transform: translateY(-10px);}100% {transform: translateY(0);}}</style>    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body style="margin:0">
+
+<audio autoplay loop id="music">
+    <source src="harry.mpeg" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener('click', function () {
+    document.getElementById('music').muted = false;
+    document.getElementById('music').play();
+}, { once: true });
+</script>
+
+    <!--First division-->
+    <div id="firstdivision" style="background-image: url('background.jpg');
+      background-size: 735 x 520px; height:590px; padding-top:40px;
+      text-align:center;">
+
+     <img src="background header.png" style="height:250px; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.3)); animation: float 3s ease-in-out infinite;">
+
+      <h1 style="font-size:60px; font-family:'Playfair Display', serif; color:#03440B; text-shadow:3px 3px 10px rgba(0,0,0,0.5); margin-top:-10px;margin-bottom:15px;"> Hi there, I'm Zana! </h1>
+
+      <h1 style="font-size:30px; color:#FF7DD5; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;"><em>Welcome to my personal portfolio where you can learn more about me, my background, interests, and my journey as a student. A small space filled with big memories, growth and everything that shaped who I am today.</em></h1>
+
+      <h1 style="font-size:15px; font-family: 'Poppins', sans-serif;  color:#E3D23D; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; margin-bottom:40px;"><em>"From a little girl with big dreams to a student chasing those dreams every day." ✨</em></h1>
+
+      <a href="aboutme.html.html" style="background-color:#D92579; color:white;padding:12px 25px; border-radius:25px; text-decoration:none; font-weight:bold;"> 
+       Discover More ↓
+      </a>
+    </div>
+</body>
+</html>
+
